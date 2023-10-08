@@ -127,3 +127,8 @@ header .shopping span{
 .listCart li img{
     width: 90%;
 }
+.listCart button{
+    width: auto;
+    background-color: #fff5;    
+    border: none;
+}
