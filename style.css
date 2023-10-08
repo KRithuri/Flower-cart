@@ -7,10 +7,12 @@ body{
 }*/
 
 body{
-    background-color: #e3e7e8;
+    
+    background-image: linear-gradient(to right, #4682b4, #40e0d0, #008080);
     font-family: system-ui;
 }
 .container{
+    
     width: 1000px;
     margin: auto;
     transition: 0.5s;
@@ -51,12 +53,12 @@ header .shopping span{
     top: 0;
     left: 100%;
     width: 500px;
-    background-color: #453e3b;
+    background-color: #008080;
     height: 100vh;
     transition: 0.5s;
 }
 .cart h1{
-    color: #e8bc03;
+    color: #48d1cc;
     font-weight: 100;
     margin: 0;
     padding: 0 20px;
@@ -72,7 +74,7 @@ header .shopping span{
     grid-template-columns: repeat(2, 1fr);
 }
 .cart .checkOut div{
-    background-color: #e8bc03;
+    background-color: #48d1cc;
     width: 100%;
     height: 70px;
     display: flex;
@@ -93,7 +95,7 @@ header .shopping span{
 }
 .list .item{
     text-align: center;
-    background-color: #dce0e1;
+    background-color: #40e0d0;
     padding: 20px;
     box-shadow: 0 50px 50px #757676;
     letter-spacing: 1px;
@@ -109,8 +111,11 @@ header .shopping span{
     margin: 10px;
 }
 .list .item button{
-    background-color: #1c1f25;
+    background-color: #da70d6;
 
+}
+.list .item button:hover{
+    background-color: antiquewhite;
 }
 .listCart li{
     display: grid;
