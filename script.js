@@ -90,7 +90,7 @@ function reloadCard(){
                 <div><img src="image/${value.image}"/></div>
                 <div>${value.name}</div>
                 <div>${value.price.toLocaleString()}</div>
-                <div>${value.quantity}</div>
+                
                 <div>
                     <button onclick="changeQuantity(${key}, ${value.quantity - 1})">-</button>
                     <div class="count">${value.quantity}</div>
