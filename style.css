@@ -132,3 +132,6 @@ header .shopping span{
     background-color: #fff5;    
     border: none;
 }
+.listCart .count{
+    margin: 0 10px;
+}
