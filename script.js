@@ -16,38 +16,53 @@ closeShopping.addEventListener('click', ()=>{
 let products = [
     {
         id: 0,
-        name: 'Product name 1',
-        image: 'image/pink-roses.jpg',
-        price: 400
+        name: 'Pink Roses',
+        image: 'Pink_Roses_24.jpg',
+        price: 500
     },
     {
         id: 1,
-        name: 'Product name 2',
-        image: 'image/pink-roses.jpg',
-        price: 400
+        name: 'Mixed Flowers',
+        image: 'mixe.jpg',
+        price: 450
     },
     {
         id: 2,
-        name: 'Product name 3',
-        image: 'image/pink-roses.jpg',
+        name: 'White Rose Buoquet',
+        image: 'white-rose-bouquet.webp',
         price: 400
     },
+    
     {
         id: 3,
-        name: 'Product name 4',
-        image: 'image/pink-roses.jpg',
-        price: 400
+        name: 'Radiance',
+        image: 'radiance.jpg',
+        price: 350
     },
     {
         id: 4,
-        name: 'Product name 5',
-        image: 'image/pink-roses.jpg',
-        price: 400
+        name: 'St Joseph Lilly Bunch',
+        image: 'mixed-st-joseph-lily-bunch.webp',
+        price: 300
     },
     {
         id: 5,
-        name: 'Product name 6',
-        image: 'image/pink-roses.jpg',
+        name: 'Mixed Roses',
+        image: 'mixed-roses.jpg',
         price: 400
     },
 ];
+
+let lisCards = [];
+function initApp(){
+    products.forEach((value, key)=>{
+        let newDiv = document.createElement('div');
+        newDiv.innerHTML = `
+            <img src="image/${value.image}"/>
+            <div class="title">${value.name}</div>
+            <div class="price">${value.price.toLocaleString()}</div>
+            `;
+            list.appendChild(newDiv);
+    })
+}
+initApp();
