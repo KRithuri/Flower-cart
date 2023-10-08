@@ -88,3 +88,6 @@ header .shopping span{
 .active .cart{
     left: calc(100% - 500px);
 }
+.active .container{
+    transform: translateX(-200px);
+}
