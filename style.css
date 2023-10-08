@@ -119,3 +119,8 @@ header .shopping span{
     row-gap: 10px;
     margin-bottom: 20px;
 }
+.listCart li div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
