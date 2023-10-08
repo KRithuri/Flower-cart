@@ -103,3 +103,13 @@ function reloadCard(){
     total.innerText = totalPrice.toLocaleString();
     quantity.innerText = count;
 }
+
+function changeQuantity(key, quantity){
+    if(quantity == 0){
+        delete lisCards[key];
+    }else{
+        lisCards[key].quantity = quantity;
+        lisCards[key].price = quantity * products[key].price;
+    }
+    reloadCard();
+}
