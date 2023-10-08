@@ -15,38 +15,38 @@ closeShopping.addEventListener('click', ()=>{
 
 let products = [
     {
-        id: 0,
+        id: 1,
         name: 'Pink Roses',
         image: 'Pink_Roses_24.jpg',
         price: 500
     },
     {
-        id: 1,
+        id: 2,
         name: 'Mixed Flowers',
         image: 'mixe.jpg',
-        price: 450
+        price: 400
     },
     {
-        id: 2,
+        id: 3,
         name: 'White Rose Buoquet',
         image: 'white-rose-bouquet.webp',
         price: 400
     },
     
     {
-        id: 3,
+        id: 4,
         name: 'Radiance',
         image: 'radiance.jpg',
         price: 350
     },
     {
-        id: 4,
+        id: 5,
         name: 'St Joseph Lilly Bunch',
         image: 'mixed-st-joseph-lily-bunch.webp',
         price: 300
     },
     {
-        id: 5,
+        id: 6,
         name: 'Mixed Roses',
         image: 'mixed-roses.jpg',
         price: 400
@@ -100,7 +100,7 @@ function reloadCard(){
             listCart.appendChild(newDiv);
         }
     })
-    total.innerText = totalPrice.toLocaleString();
+    total.innerText = 'R ' +totalPrice.toLocaleString()+'.00';
     quantity.innerText = count;
 }
 
