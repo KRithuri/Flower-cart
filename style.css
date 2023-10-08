@@ -64,3 +64,10 @@ header .shopping span{
     display: flex;
     align-items: center;
 }
+.cart .checkOut{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
