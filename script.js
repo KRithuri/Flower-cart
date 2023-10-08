@@ -68,3 +68,10 @@ function initApp(){
     })
 }
 initApp();
+function addToCart(key){
+    if(lisCards[key] == null){
+        lisCards[key] = products[key];
+        lisCards[key].quantity = 1;
+    }
+    reloadCard();
+}
