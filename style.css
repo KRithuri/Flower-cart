@@ -81,3 +81,7 @@ header .shopping span{
     font-weight: bold;
     cursor: pointer;
 }
+.cart .checkOut div:nth-child(2){
+    background-color: #1c1f25;
+    color: #fff;
+}
