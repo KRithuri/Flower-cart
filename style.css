@@ -55,3 +55,12 @@ header .shopping span{
     height: 100vh;
     transition: 0.5s;
 }
+.cart h1{
+    color: #e8bc03;
+    font-weight: 100;
+    margin: 0;
+    padding: 0 20px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
