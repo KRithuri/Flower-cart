@@ -24,3 +24,6 @@ header .shopping{
     position: relative;
     text-align: right;
 }
+header .shopping img{
+    width: 40%;
+}
